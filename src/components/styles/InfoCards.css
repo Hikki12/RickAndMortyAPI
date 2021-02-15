@@ -1,0 +1,73 @@
+.infocard {
+    border-radius: 10px;
+    display: flex;
+    background: rgb(60, 62, 68);
+    height: 170px;
+}
+
+.infocard__avatar {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.infocard__avatar-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.infocard__info {
+    padding-left: 25px;
+}
+
+.infocard__character-name {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.infocard__character-status {
+    display: flex;
+    align-items: center;
+}
+
+.character__status-on {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(70, 177, 70);
+
+}
+
+.character__status-off {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(179, 50, 78);
+}
+
+.character__status-none {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(105, 101, 102);
+}
+
+.character__status-value {
+    padding-left: 10px;
+    color: blanchedalmond;
+}
+
+.infocard__info-variables {
+    width: 100%;
+}
+
+.infocard__info-variable {
+    font-size: 1.01rem;
+    color: #9e9e9e;
+}
+
+.infocard__info-value {
+    font-size: 1.01rem;
+    color: #ebebeb;
+}
